@@ -18,7 +18,34 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'ow'
+
+    # Parse XML from file
+    server = Ow.parse_file('file.xml')
+
+    # Parse XML from string
+    server = Ow.parse("<?xml (...)")
+
+    server
+    => #<Ow::Server:0x007fa1141c1648>
+
+    server.devices
+    => [#<Ow::Devices::DS18B20:0x007fa1141b4c90,
+      #<Ow::Devices::DS2423:0x007fa1141a5ee8]
+
+    server.devices.first.temperature
+    => "6.1875"
+
+## To do
+
+### Device definions
+
+* Default conversion for element names (automatically convert to
+  snake-case).
+* Type coercion for elements (temperatures should be float, not string,
+  etc.)
+* Move common fields (Name, ROMId, etc.) to the Device module to avoid
+  duplication.
 
 ## Contributing
 
