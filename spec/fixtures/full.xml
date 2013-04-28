@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices-Detail-Response xmlns="http://www.embeddeddatasystems.com/schema/owserver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PollCount>1004011</PollCount>
+  <DevicesConnected>6</DevicesConnected>
+  <LoopTime>1.716</LoopTime>
+  <DevicesConnectedChannel1>3</DevicesConnectedChannel1>
+  <DevicesConnectedChannel2>0</DevicesConnectedChannel2>
+  <DevicesConnectedChannel3>3</DevicesConnectedChannel3>
+  <DataErrorsChannel1>15962</DataErrorsChannel1>
+  <DataErrorsChannel2>0</DataErrorsChannel2>
+  <DataErrorsChannel3>222</DataErrorsChannel3>
+  <VoltageChannel1>4.65</VoltageChannel1>
+  <VoltageChannel2>4.66</VoltageChannel2>
+  <VoltageChannel3>4.66</VoltageChannel3>
+  <VoltagePower>4.90</VoltagePower>
+  <DeviceName>OWServer_v2-Enet</DeviceName>
+  <HostName>OWSERVER1</HostName>
+  <MACAddress>01:23:45:67:89:0F</MACAddress>
+  <owd_DS18B20 Description="Programmable resolution thermometer">
+    <Name>DS18B20</Name>
+    <Family>28</Family>
+    <ROMId>030000042FE6D528</ROMId>
+    <Health>7</Health>
+    <Channel>3</Channel>
+    <RawData>63004B467FFF0D1028FF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>6.1875 Deg C</PrimaryValue>
+    <Temperature Units="Centigrade">6.1875</Temperature>
+    <UserByte1 Writable="True">75</UserByte1>
+    <UserByte2 Writable="True">70</UserByte2>
+    <Resolution>12</Resolution>
+    <PowerSource>255</PowerSource>
+  </owd_DS18B20>
+  <owd_DS2423 Description="RAM with counters">
+    <Name>DS2423</Name>
+    <Family>1D</Family>
+    <ROMId>C600000009EC941D</ROMId>
+    <Health>7</Health>
+    <Channel>3</Channel>
+    <RawData>FB2665000000000069FD0000000000000000E8820000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>6629115, 0</PrimaryValue>
+    <Counter_A>6629115</Counter_A>
+    <Counter_B>0</Counter_B>
+  </owd_DS2423>
+  <owd_EDS0068 Description="Temperature, Humidity, Barometric Pressure and Light Sensor">
+    <Name>EDS0068</Name>
+    <Family>7E</Family>
+    <ROMId>6400100000211D7E</ROMId>
+    <Health>7</Health>
+    <Channel>1</Channel>
+    <RawData>6800700176010F0051017001CC8E1F91EE000900000300405E6B170099C9160000402D0050007DD87DD87DD800803E0000000020030000000A00000000000A03000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000201000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>23.3750 %RH</PrimaryValue>
+    <Temperature Units="Centigrade">23.0000</Temperature>
+    <Humidity Units="PercentRelativeHumidity">23.3750</Humidity>
+    <DewPoint Units="Centigrade">0.9375</DewPoint>
+    <Humidex>21.0625</Humidex>
+    <HeatIndex Units="Centigrade">23.0000</HeatIndex>
+    <BarometricPressureMb Units="Millibars">1009.850</BarometricPressureMb>
+    <BarometricPressureHg Units="InchesOfMercury">29.821</BarometricPressureHg>
+    <Light Units="Lux">9</Light>
+    <LED>1</LED>
+    <Relay>1</Relay>
+    <Counter1>1493401</Counter1>
+    <Counter2>1534814</Counter2>
+    <TemperatureHighAlarmState>0</TemperatureHighAlarmState>
+    <TemperatureLowAlarmState>0</TemperatureLowAlarmState>
+    <HumidityHighAlarmState>0</HumidityHighAlarmState>
+    <HumidityLowAlarmState>0</HumidityLowAlarmState>
+    <DewPointHighAlarmState>0</DewPointHighAlarmState>
+    <DewPointLowAlarmState>0</DewPointLowAlarmState>
+    <HumidexHighAlarmState>0</HumidexHighAlarmState>
+    <HumidexLowAlarmState>0</HumidexLowAlarmState>
+    <HeatIndexHighAlarmState>0</HeatIndexHighAlarmState>
+    <HeatIndexLowAlarmState>0</HeatIndexLowAlarmState>
+    <BarometricPressureMbHighAlarmState>0</BarometricPressureMbHighAlarmState>
+    <BarometricPressureMbLowAlarmState>0</BarometricPressureMbLowAlarmState>
+    <BarometricPressureHgHighAlarmState>0</BarometricPressureHgHighAlarmState>
+    <BarometricPressureHgLowAlarmState>0</BarometricPressureHgLowAlarmState>
+    <LightHighAlarmState>1</LightHighAlarmState>
+    <LightLowAlarmState>0</LightLowAlarmState>
+    <ClearAlarms Writable="True">-</ClearAlarms>
+    <TemperatureHighConditionalSearchState Writable="True">0</TemperatureHighConditionalSearchState>
+    <TemperatureLowConditionalSearchState Writable="True">0</TemperatureLowConditionalSearchState>
+    <HumidityHighConditionalSearchState Writable="True">0</HumidityHighConditionalSearchState>
+    <HumidityLowConditionalSearchState Writable="True">0</HumidityLowConditionalSearchState>
+    <DewPointHighConditionalSearchState Writable="True">0</DewPointHighConditionalSearchState>
+    <DewPointLowConditionalSearchState Writable="True">0</DewPointLowConditionalSearchState>
+    <HumidexHighConditionalSearchState Writable="True">0</HumidexHighConditionalSearchState>
+    <HumidexLowConditionalSearchState Writable="True">0</HumidexLowConditionalSearchState>
+    <HeatIndexHighConditionalSearchState Writable="True">0</HeatIndexHighConditionalSearchState>
+    <HeatIndexLowConditionalSearchState Writable="True">0</HeatIndexLowConditionalSearchState>
+    <BarometricPressureMbHighConditionalSearchState Writable="True">0</BarometricPressureMbHighConditionalSearchState>
+    <BarometricPressureMbLowConditionalSearchState Writable="True">0</BarometricPressureMbLowConditionalSearchState>
+    <BarometricPressureHgHighConditionalSearchState Writable="True">0</BarometricPressureHgHighConditionalSearchState>
+    <BarometricPressureHgLowConditionalSearchState Writable="True">0</BarometricPressureHgLowConditionalSearchState>
+    <LightHighConditionalSearchState Writable="True">1</LightHighConditionalSearchState>
+    <LightLowConditionalSearchState Writable="True">0</LightLowConditionalSearchState>
+    <TemperatureHighAlarmValue Units="Centigrade" Writable="True">45</TemperatureHighAlarmValue>
+    <TemperatureLowAlarmValue Units="Centigrade" Writable="True">0</TemperatureLowAlarmValue>
+    <HumidityHighAlarmValue Units="PercentRelativeHumidity" Writable="True">80</HumidityHighAlarmValue>
+    <HumidityLowAlarmValue Units="PercentRelativeHumidity" Writable="True">0</HumidityLowAlarmValue>
+    <DewPointHighAlarmValue Units="Centigrade" Writable="True">125</DewPointHighAlarmValue>
+    <DewPointLowAlarmValue Units="Centigrade" Writable="True">-40</DewPointLowAlarmValue>
+    <HumidexHighAlarmValue Writable="True">125</HumidexHighAlarmValue>
+    <HumidexLowAlarmValue Writable="True">-40</HumidexLowAlarmValue>
+    <HeatIndexHighAlarmValue Units="Centigrade" Writable="True">125</HeatIndexHighAlarmValue>
+    <HeatIndexLowAlarmValue Units="Centigrade" Writable="True">-40</HeatIndexLowAlarmValue>
+    <BarometricPressureMbHighAlarmValue Units="Millibars" Writable="True">2000.000</BarometricPressureMbHighAlarmValue>
+    <BarometricPressureMbLowAlarmValue Units="Millibars" Writable="True">0.000</BarometricPressureMbLowAlarmValue>
+    <BarometricPressureHgHighAlarmValue Units="InchesOfMercury" Writable="True">100.000</BarometricPressureHgHighAlarmValue>
+    <BarometricPressureHgLowAlarmValue Units="InchesOfMercury" Writable="True">0.000</BarometricPressureHgLowAlarmValue>
+    <LightHighAlarmValue Units="Lux" Writable="True">10</LightHighAlarmValue>
+    <LightLowAlarmValue Units="Lux" Writable="True">0</LightLowAlarmValue>
+    <LEDFunction Writable="True">2</LEDFunction>
+    <RelayFunction Writable="True">2</RelayFunction>
+    <LEDState Writable="True">1</LEDState>
+    <RelayState Writable="True">1</RelayState>
+    <Version>1.02</Version>
+  </owd_EDS0068>
+  <owd_DS2450 Description="Quad A/D Converter">
+    <Name>DS2450</Name>
+    <Family>20</Family>
+    <ROMId>7A0000000E038F20</ROMId>
+    <Health>7</Health>
+    <Channel>3</Channel>
+    <RawData>00BA00F400BE000C161A088D088D088D088D79D800FF00FF00FF00FFB6DB00000000000000005C5A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>3.705469V Chnl A</PrimaryValue>
+    <ChannelAConversionValue Units="Volts">3.705469</ChannelAConversionValue>
+    <ChannelAConversionResolution Units="Bits" Writable="True">8</ChannelAConversionResolution>
+    <ChannelAConversionRange Writable="True">1</ChannelAConversionRange>
+    <ChannelAOutputEnable Writable="True">0</ChannelAOutputEnable>
+    <ChannelAOutputControl Writable="True">0</ChannelAOutputControl>
+    <ChannelBConversionValue Units="Volts">4.860938</ChannelBConversionValue>
+    <ChannelBConversionResolution Units="Bits" Writable="True">8</ChannelBConversionResolution>
+    <ChannelBConversionRange Writable="True">1</ChannelBConversionRange>
+    <ChannelBOutputEnable Writable="True">0</ChannelBOutputEnable>
+    <ChannelBOutputControl Writable="True">0</ChannelBOutputControl>
+    <ChannelCConversionValue Units="Volts">3.785156</ChannelCConversionValue>
+    <ChannelCConversionResolution Units="Bits" Writable="True">8</ChannelCConversionResolution>
+    <ChannelCConversionRange Writable="True">1</ChannelCConversionRange>
+    <ChannelCOutputEnable Writable="True">0</ChannelCOutputEnable>
+    <ChannelCOutputControl Writable="True">0</ChannelCOutputControl>
+    <ChannelDConversionValue Units="Volts">0.239062</ChannelDConversionValue>
+    <ChannelDConversionResolution Units="Bits" Writable="True">8</ChannelDConversionResolution>
+    <ChannelDConversionRange Writable="True">1</ChannelDConversionRange>
+    <ChannelDOutputEnable Writable="True">0</ChannelDOutputEnable>
+    <ChannelDOutputControl Writable="True">0</ChannelDOutputControl>
+    <PowerOnReset Writable="True">1</PowerOnReset>
+    <VCCControl Writable="True">0</VCCControl>
+  </owd_DS2450>
+  <owd_DS2450 Description="Quad A/D Converter">
+    <Name>DS2450</Name>
+    <Family>20</Family>
+    <ROMId>6A0000000D81E120</ROMId>
+    <Health>7</Health>
+    <Channel>1</Channel>
+    <RawData>00A4000A0005004A301808BDCF9D088D088D98AF00FEFFFF00FF00FFB21400000000000000005C5A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>3.267187V Chnl A</PrimaryValue>
+    <ChannelAConversionValue Units="Volts">3.267187</ChannelAConversionValue>
+    <ChannelAConversionResolution Units="Bits" Writable="True">8</ChannelAConversionResolution>
+    <ChannelAConversionRange Writable="True">1</ChannelAConversionRange>
+    <ChannelAOutputEnable Writable="True">0</ChannelAOutputEnable>
+    <ChannelAOutputControl Writable="True">0</ChannelAOutputControl>
+    <ChannelBConversionValue Units="Volts">0.199219</ChannelBConversionValue>
+    <ChannelBConversionResolution Units="Bits" Writable="True">15</ChannelBConversionResolution>
+    <ChannelBConversionRange Writable="True">1</ChannelBConversionRange>
+    <ChannelBOutputEnable Writable="True">1</ChannelBOutputEnable>
+    <ChannelBOutputControl Writable="True">1</ChannelBOutputControl>
+    <ChannelCConversionValue Units="Volts">0.099609</ChannelCConversionValue>
+    <ChannelCConversionResolution Units="Bits" Writable="True">8</ChannelCConversionResolution>
+    <ChannelCConversionRange Writable="True">1</ChannelCConversionRange>
+    <ChannelCOutputEnable Writable="True">0</ChannelCOutputEnable>
+    <ChannelCOutputControl Writable="True">0</ChannelCOutputControl>
+    <ChannelDConversionValue Units="Volts">1.474219</ChannelDConversionValue>
+    <ChannelDConversionResolution Units="Bits" Writable="True">8</ChannelDConversionResolution>
+    <ChannelDConversionRange Writable="True">1</ChannelDConversionRange>
+    <ChannelDOutputEnable Writable="True">0</ChannelDOutputEnable>
+    <ChannelDOutputControl Writable="True">0</ChannelDOutputControl>
+    <PowerOnReset Writable="True">1</PowerOnReset>
+    <VCCControl Writable="True">0</VCCControl>
+  </owd_DS2450>
+  <owd_DS2450 Description="Quad A/D Converter">
+    <Name>DS2450</Name>
+    <Family>20</Family>
+    <ROMId>2900000014042320</ROMId>
+    <Health>7</Health>
+    <Channel>1</Channel>
+    <RawData>00A6C8AB00CC00FA6FC308BDCF9D088D088D98AF00FEFFFF00FF00FFB21400000000000000005C5A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</RawData>
+    <PrimaryValue>3.307031V Chnl A</PrimaryValue>
+    <ChannelAConversionValue Units="Volts">3.307031</ChannelAConversionValue>
+    <ChannelAConversionResolution Units="Bits" Writable="True">8</ChannelAConversionResolution>
+    <ChannelAConversionRange Writable="True">1</ChannelAConversionRange>
+    <ChannelAOutputEnable Writable="True">0</ChannelAOutputEnable>
+    <ChannelAOutputControl Writable="True">0</ChannelAOutputControl>
+    <ChannelBConversionValue Units="Volts">3.422204</ChannelBConversionValue>
+    <ChannelBConversionResolution Units="Bits" Writable="True">15</ChannelBConversionResolution>
+    <ChannelBConversionRange Writable="True">1</ChannelBConversionRange>
+    <ChannelBOutputEnable Writable="True">1</ChannelBOutputEnable>
+    <ChannelBOutputControl Writable="True">1</ChannelBOutputControl>
+    <ChannelCConversionValue Units="Volts">4.064063</ChannelCConversionValue>
+    <ChannelCConversionResolution Units="Bits" Writable="True">8</ChannelCConversionResolution>
+    <ChannelCConversionRange Writable="True">1</ChannelCConversionRange>
+    <ChannelCOutputEnable Writable="True">0</ChannelCOutputEnable>
+    <ChannelCOutputControl Writable="True">0</ChannelCOutputControl>
+    <ChannelDConversionValue Units="Volts">4.980469</ChannelDConversionValue>
+    <ChannelDConversionResolution Units="Bits" Writable="True">8</ChannelDConversionResolution>
+    <ChannelDConversionRange Writable="True">1</ChannelDConversionRange>
+    <ChannelDOutputEnable Writable="True">0</ChannelDOutputEnable>
+    <ChannelDOutputControl Writable="True">0</ChannelDOutputControl>
+    <PowerOnReset Writable="True">1</PowerOnReset>
+    <VCCControl Writable="True">0</VCCControl>
+  </owd_DS2450>
+</Devices-Detail-Response>

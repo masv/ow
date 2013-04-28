@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices-Detail-Response xmlns="http://www.embeddeddatasystems.com/schema/owserver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PollCount>1004011</PollCount>
+  <DevicesConnected>6</DevicesConnected>
+  <LoopTime>1.716</LoopTime>
+  <DevicesConnectedChannel1>3</DevicesConnectedChannel1>
+  <DevicesConnectedChannel2>0</DevicesConnectedChannel2>
+  <DevicesConnectedChannel3>3</DevicesConnectedChannel3>
+  <DataErrorsChannel1>15962</DataErrorsChannel1>
+  <DataErrorsChannel2>0</DataErrorsChannel2>
+  <DataErrorsChannel3>222</DataErrorsChannel3>
+  <VoltageChannel1>4.65</VoltageChannel1>
+  <VoltageChannel2>4.66</VoltageChannel2>
+  <VoltageChannel3>4.66</VoltageChannel3>
+  <VoltagePower>4.90</VoltagePower>
+  <DeviceName>OWServer_v2-Enet</DeviceName>
+  <HostName>OWSERVER1</HostName>
+  <MACAddress>01:23:45:67:89:0F</MACAddress>
+</Devices-Detail-Response>
