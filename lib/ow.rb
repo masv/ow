@@ -1,5 +1,6 @@
+Dir[File.join(File.dirname(__FILE__), 'ow', 'devices', '*.rb')].each { |file| require file }
+
 require 'ow/device'
-require 'ow/devices/ds18b20'
 require 'ow/parser'
 require 'ow/server'
 require 'ow/version'
