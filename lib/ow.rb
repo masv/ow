@@ -5,7 +5,7 @@ require 'ow/parser'
 require 'ow/server'
 require 'ow/version'
 
-require 'ox'
+require 'rexml/document'
 
 module Ow
   def self.parse_document(document)
@@ -13,12 +13,12 @@ module Ow
   end
 
   def self.parse_file(filename)
-    document = Ox.load_file(filename)
+    document = REXML::Document.new(File.open(filename))
     parse_document(document)
   end
 
   def self.parse(string)
-    document = Ox.parse(string)
+    document = REXML::Document.new(string)
     parse_document(document)
   end
 end
