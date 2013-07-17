@@ -28,7 +28,7 @@ module Ow
         obj = new
 
         element_mapping.each do |element_name, accessor|
-          value = document.locate(element_name)[0].nodes[0]
+          value = document.elements[element_name].text
           obj.send("#{accessor}=", value)
         end
 

@@ -20,6 +20,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency("bundler")
   gem.add_development_dependency("rake")
   gem.add_development_dependency("minitest", "~> 4.7.2")
-
-  gem.add_dependency("ox", "~> 1.9.4")
 end

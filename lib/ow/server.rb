@@ -31,7 +31,7 @@ module Ow
       server = super
 
       Ow::Device.types.each do |name, device_class|
-        document.locate("owd_#{name}").map do |device_node|
+        document.elements.each("owd_#{name}") do |device_node|
           server.devices << device_class.from_document(device_node)
         end
       end
