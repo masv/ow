@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/masv/ow.png?branch=master)](https://travis-ci.org/masv/ow)
+[![Code Climate](https://codeclimate.com/github/masv/ow.png)](https://codeclimate.com/github/masv/ow)
+
 # Ow
 
 A Ruby parser for OW-SERVER XML files.
