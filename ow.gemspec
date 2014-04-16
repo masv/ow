@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{A Ruby parser for OW-SERVER XML files.}
   gem.summary       = %q{A Ruby parser for OW-SERVER XML files.}
   gem.homepage      = "https://github.com/masv/ow"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
